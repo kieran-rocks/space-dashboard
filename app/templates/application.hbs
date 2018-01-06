@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class="app">
+    <h1 class="title">Space Dashboard</h1>
 
-{{outlet}}
+    <div class="iss-stream">
+        <iframe width="480" height="270" src="http://www.ustream.tv/embed/9408562?html5ui" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;"></iframe>
+    </div>
+
+    <div class="nasa-tv">
+        <iframe width="480" height="270" src="http://www.ustream.tv/embed/17074538?html5ui" scrolling="no" allowfullscreen webkitallowfullscreen frameborder="0" style="border: 0 none transparent;"></iframe>
+    </div>
+</div>
